@@ -111,5 +111,5 @@ A single-page report was created using Power BI Desktop and then published to Po
 
 ---
 
-By analyzing these insights, insurance companies can enhance claim processing efficiency, reduce fraud risks, and optimize customer engagement strategies.
+By analyzing these insights, Prism Insurance PVT LTD can enhance claim processing efficiency, reduce fraud risks, and optimize customer engagement strategies.
 
