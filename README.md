@@ -28,8 +28,6 @@ Furthermore, analyzing the relationship between coverage amounts and claim frequ
 
 # Insurance Data Insights Report
 
-A single-page report was created using Power BI Desktop and then published to Power BI Service.  
-
 ## **Insights from the Dashboard**  
 
 ---
