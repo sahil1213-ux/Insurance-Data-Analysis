@@ -32,47 +32,50 @@ Furthermore, analyzing the relationship between coverage amounts and claim frequ
 
 ---
 
-## **1. Total Number of Unique Policies = 10,000**  
-
-- **Total number of claims filed** = 5,645 (56.45%)  
-- **Total number of claims approved** = 3,248 (32.48%)  
-- **Total number of claims rejected** = 2,397 (23.97%)  
-- **Total number of pending claims** = 1,448 (14.48%)  
+## **1. Total Number of Policies = 10,000**  
+- **Total number of claims approved** = 3386 (33.86%)
+- **Total number of claims rejected** = 4354 (43.54%)
+- **Total number of pending claims** = 2260 (22.60%)
 
 ➡ A significant portion of claims are either **pending or rejected**, indicating a need to streamline claim approvals.  
+
 
 ---
 
 ## **2. Customer Demographics**  
 
-- **Male policyholders** = 5,035 (50.35%)  
-- **Female policyholders** = 4,965 (49.65%)  
+- **Male policyholders** = 5,000
+- **Female policyholders** = 4,965  
 - **Age Group Distribution:**  
-  - **18-30 years** = 1,800 (18.00%)  
-  - **31-50 years** = 4,510 (45.10%)  
-  - **51-70 years** = 3,156 (31.56%)  
-  - **Above 70 years** = 534 (5.34%)  
+- **61+**: 38.19%
+- **31-45**: 21.70%
+- **46-60**: 21.22%
+- **19-30**: 17.44%
+- **0-18**: 1.45%
 
-➡ The **31-50 years age group** has the highest number of policyholders.  
+
+➡ The **60+ years age group** has the highest number of policyholders.  
+
 
 ---
 
 ## **3. Policy Distribution by Type**  
 
-- **Auto Insurance** = 3,540 (35.40%)  
-- **Health Insurance** = 2,780 (27.80%)  
-- **Life Insurance** = 1,980 (19.80%)  
-- **Travel Insurance** = 1,700 (17.00%)  
-- **Home Insurance** = 2,000 (20.00%)  
+- **Travel** = 4145 (41.45%)
+- **Health** = 2000 (20.00%)
+- **Auto** = 1594 (15.94%)
+- **Life** = 1248 (12.48%)
+- **Home** = 1013 (10.13%)
 
-➡ **Auto insurance** policies are the most common, followed by health insurance.  
+➡ **Travel** policies are the most common, followed by health insurance.  
+
 
 ---
 
 ## **4. Average Premium & Coverage Amount**  
 
-- **Average Premium Amount** = ₹1,243.78  
-- **Average Coverage Amount** = ₹58,917.62  
+- **Average Premium Amount** = 597.41
+- **Average Coverage Amount** = 60033.12
 
 ➡ Premium pricing varies depending on policy type and risk factors.  
 
@@ -80,33 +83,27 @@ Furthermore, analyzing the relationship between coverage amounts and claim frequ
 
 ## **5. Claims & Settlement Analysis**  
 
-- **Average Claim Amount (Approved Claims)** = ₹12,765.84  
-- **Average Claim Amount (Rejected Claims)** = ₹8,561.40  
-- **Pending claims have an average amount of ₹10,318.20**  
+- **Average Claim Amount (Approved Claims)** = ₹2984.37
+- **Average Claim Amount (Rejected Claims)** = ₹0.00
+- **Pending claims have an average amount of ₹3008.51**
 
-➡ Higher claim amounts tend to have a **higher approval rate**, whereas smaller claims often face rejection.  
+➡ Higher claim amounts tend to have a **higher pending rate**.  
+
 
 ---
 
 ## **6. Claim Status by Policy Type**  
 
-- **Auto Insurance:** 48% approved, 22% rejected, 30% pending  
-- **Health Insurance:** 41% approved, 29% rejected, 30% pending  
-- **Life Insurance:** 62% approved, 20% rejected, 18% pending  
-- **Travel Insurance:** 39% approved, 35% rejected, 26% pending  
+- **Auto:** 22.40% Pending, 42.22% Rejected, 35.38% Settled
+- **Health:** 22.90% Pending, 43.35% Rejected, 33.75% Settled
+- **Home:** 20.93% Pending, 46.20% Rejected, 32.87% Settled
+- **Life:** 23.72% Pending, 45.35% Rejected, 30.93% Settled
+- **Travel:** 22.61% Pending, 42.94% Rejected, 34.45% Settled
 
-➡ **Life insurance** has the highest claim approval rate, while **travel insurance** has the most rejections.  
+➡ **Auto Insurance** has the highest claim approval rate, while **Home Insurance** has the most rejections.  
+
 
 ---
-
-## **7. Fraud Detection Indicators**  
-
-- **10% of rejected claims involve high-value policies.**  
-- **Customers with multiple rejected claims show a 2x higher fraud risk.**  
-- **Claims filed within the first 3 months of policy activation have a 40% rejection rate.**  
-
-➡ A **fraud detection model** can help minimize financial losses for insurers.  
-
 ---
 
 By analyzing these insights, Prism Insurance PVT LTD can enhance claim processing efficiency, reduce fraud risks, and optimize customer engagement strategies.
